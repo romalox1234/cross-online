@@ -1,0 +1,250 @@
+/* @font-face {
+    font-family: "Anonymous Pro";
+    src:url(font/AnonymousPro-Regular.ttf) format('ttf'),
+    url(font/AnonymousPro-Bold.ttf) format('ttf'),
+    url(font/AnonymousPro-BoldItalic.ttf) format('ttf'),
+    url(font/AnonymousPro-Italic.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+} */
+@font-face {
+    font-family: Anonymous Pro;
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+    width: 1440px;
+    background: #F1F1F1;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    width: 1440px;
+    height: 110px;
+    background: var(--white, #FFF);
+    
+}
+
+#header--box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin: auto;
+    width: 1160px;
+    height: 26px;
+}
+
+#logo{
+    width: 212.34px;
+    height: 63.24px; 
+}   
+
+#channel{
+    color: #000;
+    font-family: 'Anonymous Pro' ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0%;
+}
+.a-h {
+    text-decoration:none;
+    color: #000
+}
+
+#line{
+    width: 1440px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--text_gray, #A1A6B4);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.main--box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 1160px;
+    margin: 0;
+}
+
+.collection{
+    display: flex;
+    color: var(--black, #121723);
+    font-family: 'Anonymous Pro';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    width: 767px;
+    margin: 0%;
+}
+
+.sneaker{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+} 
+
+  .top--box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .central--box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .down--box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    align-items: flex-start;
+  }
+
+.container {
+    flex-wrap: wrap;
+    max-width: 371px;
+    border-radius: 12px;
+    width: 100%;
+    border: 0px solid var(--text_gray, #A1A6B4);
+    background: var(--white, #FFF); 
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.img{
+    width: 371px;
+    height: 254px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.container--info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0%;
+    width: 90%;
+    padding: 32px 24px;
+    align-items: center;
+    border-radius: 0px 0px 12px 12px;
+    overflow: hidden;
+}
+ .h3 {
+    display: flex;
+    width: 90%;
+    color: var(--black, #121723);
+    font-family: 'Anonymous Pro';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+    
+}
+.p {
+    color: var(--black, #121723);
+    font-family: 'Anonymous Pro';
+    width: 85%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    align-items: center;
+    overflow: hidden;
+    align-self: stretch;
+}
+
+.footer {
+    display: flex;
+    width: 1440px;
+    height: 142px;
+    background: var(--black, #121723);
+    flex-direction: column;
+}
+
+.footer--box{
+    display: flex;
+    width: 1160px;
+    height: 23px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.logo {
+    width: 299.653px;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: var(--white, var(--white-100, #FFF));
+    font-family: 'Anonymous Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+ .a-f{
+    text-decoration:none;
+    color: #FFF;
+ }
+ .line{
+    display: flex;
+    width: 1160px;
+    height: 1px;
+    background: rgba(230, 232, 236, 0.40);
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ 
+.p-footer{
+    display: flex;
+    justify-content: center;
+    color: var(--text_gray, var(--gray-300, #A1A6B4));
+    font-family: 'Anonymous Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 18px;
+    }
+
